@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .logo {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at 30% 30%, #ffdc80, #fcb045, #fd1d1d, #833ab4, #405de6);
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .camera-outline {
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            border: 15px solid white;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        .lens {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .flash {
+            position: absolute;
+            top: 15%;
+            right: 15%;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="camera-outline"></div>
+        <div class="lens"></div>
+        <div class="flash"></div>
+    </div>
+</body>
+</html>

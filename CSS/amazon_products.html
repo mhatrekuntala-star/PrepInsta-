@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Listing</title>
+    <link rel="stylesheet" href="amazon_products.css">
+</head>
+<body>
+    <header>
+        <h1>Shop</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <aside class="filters">
+            <h2>Filters</h2>
+            <div class="filter-group">
+                <h3>Category</h3>
+                <label><input type="checkbox"> Electronics</label>
+                <label><input type="checkbox"> Clothing</label>
+                <label><input type="checkbox"> Home & Kitchen</label>
+            </div>
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <label><input type="radio" name="price"> $0 - $50</label>
+                <label><input type="radio" name="price"> $50 - $100</label>
+                <label><input type="radio" name="price"> $100 - $200</label>
+            </div>
+        </aside>
+        <section class="product-list">
+            <div class="product-card">
+                <img src="diary.jpeg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="compass box.jpeg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
